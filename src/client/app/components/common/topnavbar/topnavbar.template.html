@@ -1,0 +1,54 @@
+<div class="row border-bottom">
+    <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="minimalize-styl-2 btn btn-primary " (click)="toggleNavigation()"><i class="fa fa-bars"></i> </a>
+        </div>
+
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a>
+                  Viernes, 6 de Enero de 2017
+                </a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-bell"></i>
+                        5 Notificaciones
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Notificación 1</a></li>
+                        <li><a href="#">Notificación 2</a></li>
+                        <li><a href="#">Notificación 3</a></li>
+                        <li><a href="#">Notificación 4</a></li>
+                        <li><a href="#">Otra Notificación</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-user"></i>
+                        Usuario
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="disabled"><a href="#">Temas disponible</a></li>
+                        <li class="menu-theme">
+                            <span class="colortheme colorwhite" onclick="changeTheme('white')"></span>
+                            <span class="colortheme colorblack" onclick="changeTheme('black')"></span>
+                            <span class="colortheme colorblue"  onclick="changeTheme('blue')"></span>
+                            <span class="colortheme colorgreen" onclick="changeTheme('green')"></span>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Editar Info</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-sign-out"></i> Cerrar Sesión
+                    </a>
+                </li>
+            </ul>
+
+    </nav>
+</div>
